@@ -1,5 +1,8 @@
 # rust-playground
-Playground and toy projects on Rust
+
+#### Personal projects on Rust for learning. Contains quick notes on using Rust and Cargo. Reference to rust book: https://rust-book.cs.brown.edu/title-page.html
+
+### Quick Notes
 
 `Cargo.lock` file - when `cargo build` runs, it will see that lock file exists and use the versions recorded in the lock file. This is to have reproducible builds. If you want to update the dependencies, you can run `cargo update` to update the lock file. This lock file should be checked into Git.
 
